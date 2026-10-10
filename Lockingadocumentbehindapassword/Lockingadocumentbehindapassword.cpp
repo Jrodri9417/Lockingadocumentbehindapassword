@@ -14,7 +14,7 @@ void displayFile(string filename) {
 
     // check if the file is opened
     if (myFile.fail()) {
-        cout << "Sorry, I could not find that file." << endl;
+        cout << "I could not find that file." << endl;
         return;
     }
 
@@ -34,7 +34,7 @@ int main() {
     int tries = 0;
 
     //ask for the password
-    cout << "Please make a password: ";
+    cout << "Make a password: ";
     cin >> password;
 
     //ask if they want to see a document
